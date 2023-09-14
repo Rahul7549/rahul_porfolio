@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/rahul_porfolio/static/css/main.b5fcc68c.css",
-    "main.js": "/rahul_porfolio/static/js/main.5a6a02f0.js",
+    "main.css": "/rahul_porfolio/static/css/main.4314bc23.css",
+    "main.js": "/rahul_porfolio/static/js/main.29cd1a47.js",
     "static/media/netflixClone.png": "/rahul_porfolio/static/media/netflixClone.7376a273cb13372db40e.png",
+    "static/media/avatar.jpg": "/rahul_porfolio/static/media/avatar.cb9909d63bfa8bd20cfa.jpg",
     "static/media/covidTrakerApp.png": "/rahul_porfolio/static/media/covidTrakerApp.01a32f74b074bfad694b.png",
     "static/media/weatherApplication.png": "/rahul_porfolio/static/media/weatherApplication.27647a67d94bc9e2c6f4.png",
     "static/media/img7.avif": "/rahul_porfolio/static/media/img7.01ce8f18f1dceb123887.avif",
+    "static/media/project2.jpg": "/rahul_porfolio/static/media/project2.2a1acb416552d7f128bd.jpg",
     "static/media/p1.avif": "/rahul_porfolio/static/media/p1.68f208b4632899ac0f21.avif",
+    "static/media/Rahul_Kumar_Sharma_2023.pdf": "/rahul_porfolio/static/media/Rahul_Kumar_Sharma_2023.40a72880f1949acbb94e.pdf",
+    "static/media/project1.avif": "/rahul_porfolio/static/media/project1.bad76ad926f816ef977a.avif",
     "static/media/curatus.jpg": "/rahul_porfolio/static/media/curatus.981537885abdeba26e1b.jpg",
-    "static/media/img3.avif": "/rahul_porfolio/static/media/img3.f21066a23c6f4d8cde9c.avif",
-    "static/media/img4.avif": "/rahul_porfolio/static/media/img4.5445cfbdcb23caa8fb15.avif",
     "index.html": "/rahul_porfolio/index.html",
-    "main.b5fcc68c.css.map": "/rahul_porfolio/static/css/main.b5fcc68c.css.map",
-    "main.5a6a02f0.js.map": "/rahul_porfolio/static/js/main.5a6a02f0.js.map"
+    "main.4314bc23.css.map": "/rahul_porfolio/static/css/main.4314bc23.css.map",
+    "main.29cd1a47.js.map": "/rahul_porfolio/static/js/main.29cd1a47.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5fcc68c.css",
-    "static/js/main.5a6a02f0.js"
+    "static/css/main.4314bc23.css",
+    "static/js/main.29cd1a47.js"
   ]
 }
