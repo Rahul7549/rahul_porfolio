@@ -24,12 +24,12 @@ export default function Navbar() {
   return (
     <>
      <div className="header">
-      <Link to="/rahul_porfolio">
+      <Link to="/rahul_portfolio">
         <h1>Portfolio</h1>
       </Link>
       <ul className={showHamburger? "nav-menu active" :"nav-menu"}>
         <li>
-            <Link to="/rahul_porfolio">Home</Link>
+            <Link to="/rahul_portfolio">Home</Link>
         </li>
         <li>
             <Link to="/project">Project</Link>

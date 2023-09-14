@@ -63,4 +63,34 @@
         font-size: 1.4rem;
        
     }
+
+    .resume-button{
+        display: block;
+    }
+}
+
+@media screen and (max-width:952px) {
+    .resume-button{
+        display: block;
+        max-width: 400px;
+    }
+}
+
+.profile-pic{
+    display: block;
+    position: relative;
+    top: -15px;
+    width: 200px;
+    margin: 0px auto;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid white;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.profile-pic img{
+    width: 100%;
+    position: relative;
+    display: inline-block;
 }

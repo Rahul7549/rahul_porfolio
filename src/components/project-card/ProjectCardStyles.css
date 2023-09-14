@@ -13,9 +13,11 @@
 }
 
 .project-card{
+    height: auto;
+}
+.project-card-in{
     background: #1a1919;
     padding: 1.2rem 1rem;
-    height: auto;
 }
 
 .project-card img{
@@ -44,10 +46,12 @@
     color: #fff;
     font-size:1.4rem;
     text-transform: uppercase;
+    padding-bottom: 10px;
 }
 
 .project-detail p{
    padding-bottom: 1rem;
    font-size: 1.1rem;
-   text-align: justify;
+   line-height: 1.5rem;
+   text-align: left;
 }

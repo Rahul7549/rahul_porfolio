@@ -38,17 +38,20 @@ export default function Footer() {
             organizational skills. Motivated to learn new technologies grow and excel in the industry.
             </p>
             <div className='social'>
+              <a target='_blank' href='https://www.facebook.com/profile.php?id=100091796851448'>
               <FaFacebook size={30}
               style={{color:"#fff",marginRight:"1rem"}}/>
-
-            <FaTwitter size={30}
-              style={{color:"#fff",marginRight:"1rem"}}/>
+              </a>
               
-            <FaLinkedin size={30} to='https://www.linkedin.com/in/rahul-kumar-sharma-9bb998196/'
-              style={{color:"#fff",marginRight:"1rem"}}/>
+            <a target='_blank' href='https://www.linkedin.com/in/rahul-kumar-sharma-9bb998196/'>
+            <FaLinkedin size={30}
+              style={{color:"#fff",marginRight:"1rem",cursor:"pointer"}}/>
+            </a>
 
+            <a target='_blank' href='https://www.instagram.com/accounts/onetap/?next=%2Frksharma15700%2F'>
             <FaInstagram size={30}
               style={{color:"#fff",marginRight:"1rem"}}/>
+            </a>
             </div>
         </div>
       </div>

@@ -13,14 +13,16 @@ export default function ProjectCard() {
                 projectCardData.map((value,ind)=>{
                     return (
                         <div className='project-card'>
+                        <div className='project-card-in'>
                         <img src={value.imgsrc} alt='projectImg'/>
                         <h2 className='project-title'>{value.title}</h2>
                         <div className='project-detail'>
                             <p>{value.about}</p>
                             <div className='pro-btns'>
                                 <NavLink className='btn' to={value.view}>View</NavLink>
-                                <NavLink className='btn' to={value.view}>Source</NavLink>
+                                <NavLink className='btn' to={value.source}>Source</NavLink>
 
+                            </div>
                         </div>
                         </div>
                         </div>
