@@ -12,7 +12,7 @@ export default function ProjectCard() {
             {
                 projectCardData.map((value,ind)=>{
                     return (
-                        <div className='project-card'>
+                        <div key={value.view} className='project-card'>
                         <div className='project-card-in'>
                         <img src={value.imgsrc} alt='projectImg'/>
                         <h2 className='project-title'>{value.title}</h2>

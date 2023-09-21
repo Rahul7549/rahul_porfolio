@@ -32,13 +32,13 @@ export default function Navbar() {
             <Link to="/rahul_portfolio">Home</Link>
         </li>
         <li>
-            <Link to="/project">Project</Link>
+            <Link to="/rahul_portfolio/project">Project</Link>
         </li>
         <li>
-            <Link to="/about">About</Link>
+            <Link to="/rahul_portfolio/about">About</Link>
         </li>
         <li>
-            <Link to="/contact">Contact</Link>
+            <Link to="/rahul_portfolio/contact">Contact</Link>
         </li>
       </ul>
       <div className='hamburger' onClick={handleHamburger}>
