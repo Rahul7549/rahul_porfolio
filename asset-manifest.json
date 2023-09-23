@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/rahul_portfolio/static/css/main.08d3e5e5.css",
-    "main.js": "/rahul_portfolio/static/js/main.96666147.js",
-    "static/media/netflixClone.png": "/rahul_portfolio/static/media/netflixClone.7376a273cb13372db40e.png",
-    "static/media/avatar.jpg": "/rahul_portfolio/static/media/avatar.cb9909d63bfa8bd20cfa.jpg",
-    "static/media/covidTrakerApp.png": "/rahul_portfolio/static/media/covidTrakerApp.01a32f74b074bfad694b.png",
-    "static/media/weatherApplication.png": "/rahul_portfolio/static/media/weatherApplication.27647a67d94bc9e2c6f4.png",
-    "static/media/img7.avif": "/rahul_portfolio/static/media/img7.01ce8f18f1dceb123887.avif",
-    "static/media/project2.jpg": "/rahul_portfolio/static/media/project2.2a1acb416552d7f128bd.jpg",
-    "static/media/Rahul_Kumar_Sharma_2023.pdf": "/rahul_portfolio/static/media/Rahul_Kumar_Sharma_2023.40a72880f1949acbb94e.pdf",
-    "static/media/project1.avif": "/rahul_portfolio/static/media/project1.bad76ad926f816ef977a.avif",
-    "static/media/curatus.jpg": "/rahul_portfolio/static/media/curatus.981537885abdeba26e1b.jpg",
-    "index.html": "/rahul_portfolio/index.html",
-    "main.08d3e5e5.css.map": "/rahul_portfolio/static/css/main.08d3e5e5.css.map",
-    "main.96666147.js.map": "/rahul_portfolio/static/js/main.96666147.js.map"
+    "main.css": "/static/css/main.08d3e5e5.css",
+    "main.js": "/static/js/main.96e19ff2.js",
+    "static/media/netflixClone.png": "/static/media/netflixClone.7376a273cb13372db40e.png",
+    "static/media/avatar.jpg": "/static/media/avatar.cb9909d63bfa8bd20cfa.jpg",
+    "static/media/covidTrakerApp.png": "/static/media/covidTrakerApp.01a32f74b074bfad694b.png",
+    "static/media/weatherApplication.png": "/static/media/weatherApplication.27647a67d94bc9e2c6f4.png",
+    "static/media/img7.avif": "/static/media/img7.01ce8f18f1dceb123887.avif",
+    "static/media/project2.jpg": "/static/media/project2.2a1acb416552d7f128bd.jpg",
+    "static/media/Rahul_Kumar_Sharma_2023.pdf": "/static/media/Rahul_Kumar_Sharma_2023.40a72880f1949acbb94e.pdf",
+    "static/media/project1.avif": "/static/media/project1.bad76ad926f816ef977a.avif",
+    "static/media/curatus.jpg": "/static/media/curatus.981537885abdeba26e1b.jpg",
+    "index.html": "/index.html",
+    "main.08d3e5e5.css.map": "/static/css/main.08d3e5e5.css.map",
+    "main.96e19ff2.js.map": "/static/js/main.96e19ff2.js.map"
   },
   "entrypoints": [
     "static/css/main.08d3e5e5.css",
-    "static/js/main.96666147.js"
+    "static/js/main.96e19ff2.js"
   ]
 }
