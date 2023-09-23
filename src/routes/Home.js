@@ -4,9 +4,9 @@ import HomeBackGroundImage from '../../src/components/background-image/HomeBackG
 import Footer from '../../src/components/footer/Footer'
 import ProjectCard from '../components/project-card/ProjectCard'
 export default function Home() {
+  document.title='Home';
   return (
     <>
-     <Navbar/>
      <HomeBackGroundImage/>
      <ProjectCard/>
      <Footer/>

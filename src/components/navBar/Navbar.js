@@ -1,52 +1,59 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import './NavbarStyles.css'
-import {FaBars, FaTimes} from 'react-icons/fa'
-
+import { FaBars, FaTimes } from 'react-icons/fa'
+import LoadingBar from 'react-top-loading-bar'
 export default function Navbar() {
 
-  const [showHamburger,setHamburger]=useState(false);
-  const handleHamburger=()=>setHamburger(!showHamburger);
-  
-  const [headerColor,seHeaderColor]=useState(false);
+  const [showHamburger, setHamburger] = useState(false);
+  const handleHamburger = () => setHamburger(!showHamburger);
+  const [progress, setProgress] = useState(0)
+  const [headerColor, seHeaderColor] = useState(false);
 
-  const scrollView=()=>{
-    if(window.scrollY>=100){
+  const scrollView = () => {
+    if (window.scrollY >= 100) {
       seHeaderColor(true);
-    }else{
+    } else {
       seHeaderColor(false);
     }
   }
 
-  window.addEventListener('scroll',scrollView);
+  window.addEventListener('scroll', scrollView);
 
 
   return (
     <>
-     <div className="header">
-      <Link to="/rahul_portfolio">
-        <h1>Portfolio</h1>
-      </Link>
-      <ul className={showHamburger? "nav-menu active" :"nav-menu"}>
-        <li>
-            <Link to="/rahul_portfolio">Home</Link>
-        </li>
-        <li>
-            <Link to="/rahul_portfolio/project">Project</Link>
-        </li>
-        <li>
-            <Link to="/rahul_portfolio/about">About</Link>
-        </li>
-        <li>
-            <Link to="/rahul_portfolio/contact">Contact</Link>
-        </li>
-      </ul>
-      <div className='hamburger' onClick={handleHamburger}>
-        {showHamburger ? 
-        (<FaTimes size={20} style={{color:"#fff"}}/>):
-        (<FaBars size={20}  style={{color:"#fff"}}/>)
-        }
-      </div>
+      <LoadingBar
+        color='#f11946'
+        progress={progress}
+        onLoaderFinished={() => setProgress(0)}
+      />
+      <div className="header">
+        <Link to="/rahul_portfolio">
+          <h1 onClick={() => setProgress(100)} >Portfolio</h1>
+        </Link>
+        <ul className={showHamburger ? "nav-menu active" : "nav-menu"}>
+          <li>
+            <Link onClick={() => setProgress(100)} to="/rahul_portfolio">
+              <span>Home</span>
+            </Link>
+          </li>
+          <li>
+            <Link onClick={() => setProgress(100)} to="/rahul_portfolio/project">Project</Link>
+          </li>
+          <li>
+            <Link onClick={() => setProgress(100)} to="/rahul_portfolio/about">About</Link>
+          </li>
+          <li>
+            <Link onClick={() => setProgress(100)} to="/rahul_portfolio/contact">Contact</Link>
+          </li>
+        </ul>
+        <div className='hamburger' onClick={handleHamburger}>
+          {showHamburger ?
+            (<FaTimes size={20} style={{ color: "#fff" }} />) :
+            (<FaBars size={20} style={{ color: "#fff" }} />)
+          }
+        </div>
       </div>
 
     </>

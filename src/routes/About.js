@@ -5,9 +5,9 @@ import Footer from '../components/footer/Footer'
 import AboutContent from '../components/about-content/AboutContent'
 
 export default function About() {
+  document.title='About';
   return (
     <div>
-      <Navbar/>
       <BackGroundImg heading="ABOUT." 
       text="I am a friendly Front End Developer"/>
       <AboutContent/>

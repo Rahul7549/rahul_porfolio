@@ -7,7 +7,6 @@ export default function Project() {
   return (
     
      <div>
-        <Navbar/>
         <BackGroundImg heading="PROJECTS." 
         text="some of project my most recent works"/>
         <ProjectCard/>
