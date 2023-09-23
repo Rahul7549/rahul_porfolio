@@ -18,6 +18,11 @@ export default function Navbar() {
     }
   }
 
+  const handleProgress=(progress)=>{
+    setProgress(100);
+    handleHamburger();
+  }
+
   window.addEventListener('scroll', scrollView);
 
 
@@ -30,22 +35,22 @@ export default function Navbar() {
       />
       <div className="header">
         <Link to="/rahul_portfolio">
-          <h1 onClick={() => setProgress(100)} >Portfolio</h1>
+          <h1 onClick={handleProgress} >Portfolio</h1>
         </Link>
         <ul className={showHamburger ? "nav-menu active" : "nav-menu"}>
           <li>
-            <Link onClick={() => setProgress(100)} to="/rahul_portfolio">
+            <Link onClick={handleProgress} to="/rahul_portfolio">
               <span>Home</span>
             </Link>
           </li>
           <li>
-            <Link onClick={() => setProgress(100)} to="/rahul_portfolio/project">Project</Link>
+            <Link onClick={handleProgress} to="/rahul_portfolio/project">Project</Link>
           </li>
           <li>
-            <Link onClick={() => setProgress(100)} to="/rahul_portfolio/about">About</Link>
+            <Link onClick={handleProgress} to="/rahul_portfolio/about">About</Link>
           </li>
           <li>
-            <Link onClick={() => setProgress(100)} to="/rahul_portfolio/contact">Contact</Link>
+            <Link onClick={handleProgress} to="/rahul_portfolio/contact">Contact</Link>
           </li>
         </ul>
         <div className='hamburger' onClick={handleHamburger}>
