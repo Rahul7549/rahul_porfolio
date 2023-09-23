@@ -1,5 +1,4 @@
 import './ProjectCardStyles.css'
-import proj1 from '../../assets/p1.avif'
 import projectCardData from '../../assets/ProjectData'
 import React from 'react'
 import { NavLink } from 'react-router-dom'

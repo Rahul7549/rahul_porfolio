@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from '../components/navBar/Navbar'
 import Footer from '../components/footer/Footer'
 import BackGroundImg from '../components/background-image/BackGroundImg'
 import ProjectCard from '../components/project-card/ProjectCard'

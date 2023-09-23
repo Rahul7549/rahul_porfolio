@@ -8,22 +8,12 @@ export default function Navbar() {
   const [showHamburger, setHamburger] = useState(false);
   const handleHamburger = () => setHamburger(!showHamburger);
   const [progress, setProgress] = useState(0)
-  const [headerColor, seHeaderColor] = useState(false);
-
-  const scrollView = () => {
-    if (window.scrollY >= 100) {
-      seHeaderColor(true);
-    } else {
-      seHeaderColor(false);
-    }
-  }
 
   const handleProgress=(progress)=>{
     setProgress(100);
     handleHamburger();
   }
 
-  window.addEventListener('scroll', scrollView);
 
 
   return (
