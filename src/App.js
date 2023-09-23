@@ -4,8 +4,6 @@ import Project from "./routes/Project"
 import Contact from "./routes/Contact"
 import { Route, Routes } from "react-router-dom";
 import Home from "./routes/Home";
-
-import { useState } from "react";
 import Navbar from "./components/navBar/Navbar";
 
 function App() {
