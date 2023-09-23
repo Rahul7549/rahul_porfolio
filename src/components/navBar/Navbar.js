@@ -24,23 +24,23 @@ export default function Navbar() {
         onLoaderFinished={() => setProgress(0)}
       />
       <div className="header">
-        <Link to="/rahul_portfolio">
+        <Link to="/">
           <h1 onClick={handleProgress} >Portfolio</h1>
         </Link>
         <ul className={showHamburger ? "nav-menu active" : "nav-menu"}>
           <li>
-            <Link onClick={handleProgress} to="/rahul_portfolio">
+            <Link onClick={handleProgress} to="/">
               <span>Home</span>
             </Link>
           </li>
           <li>
-            <Link onClick={handleProgress} to="/rahul_portfolio/project">Project</Link>
+            <Link onClick={handleProgress} to="/project">Project</Link>
           </li>
           <li>
-            <Link onClick={handleProgress} to="/rahul_portfolio/about">About</Link>
+            <Link onClick={handleProgress} to="/about">About</Link>
           </li>
           <li>
-            <Link onClick={handleProgress} to="/rahul_portfolio/contact">Contact</Link>
+            <Link onClick={handleProgress} to="/contact">Contact</Link>
           </li>
         </ul>
         <div className='hamburger' onClick={handleHamburger}>

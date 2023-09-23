@@ -13,11 +13,11 @@ function App() {
   return (
     <>
     <Navbar/>
-    <Routes basename="/rahul_portfolio">
-      <Route exact path="/rahul_portfolio"  element={<Home />}/>
-      <Route exact path="/rahul_portfolio/contact" element={<Contact />}/>
-      <Route exact path="/rahul_portfolio/project" element={<Project />}/>
-      <Route exact path="/rahul_portfolio/about" element={<About />}/>
+    <Routes basename="/">
+      <Route exact path="/"  element={<Home />}/>
+      <Route exact path="/contact" element={<Contact />}/>
+      <Route exact path="/project" element={<Project />}/>
+      <Route exact path="/about" element={<About />}/>
     </Routes>
     </>
   );
