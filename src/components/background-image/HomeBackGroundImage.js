@@ -24,7 +24,7 @@ export default function HomeBackGroundImage() {
         <div>
           <Link to="/rahul_portfolio/project" className='btn'>PROJECT</Link>
           <Link to="/rahul_portfolio/contact" className='btn btn-light'>CONTACT</Link>
-          <a className="resume-button btn" href={resume} target='_blank' >VIEW RESUME</a>
+          <a className="resume-button btn" target='_blank' href={resume} rel="noopener noreferrer"  >VIEW RESUME</a>
         </div>
       </div>
 
