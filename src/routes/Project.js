@@ -7,7 +7,7 @@ export default function Project() {
     
      <div>
         <BackGroundImg heading="PROJECTS." 
-        text="some of project my most recent works"/>
+        text="Some of my most recent projects include..."/>
         <ProjectCard/>
         <Footer/>
      </div>
