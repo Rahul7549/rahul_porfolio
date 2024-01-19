@@ -20,7 +20,7 @@ export default function HomeBackGroundImage() {
         </span>
 
         <p> HI,I AM RAHUL KUMAR SHARMA</p>
-        <h1>SOFTWARE ENGINEER</h1>
+        <h1>SOFTWARE DEVELOPER</h1>
         <div>
           <Link to="/project" className='btn'>PROJECT</Link>
           <Link to="/contact" className='btn btn-light'>CONTACT</Link>
