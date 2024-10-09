@@ -9,10 +9,11 @@ export default function AboutContent() {
         <div className='left'>
             <h1>Who AM I</h1>
             <p>
-            A Software Developer with 2+ year of experience 
-            specializing in user interface design, application development, 
-            Data security, REST API's Development and continuous improvement using
-            Angular,ReactJs,Java Spring MVC,NodeJs,postgresql,mysql.
+            Experienced Senior Software Engineer with 3+ years of expertise in Angular and full-stack development.
+            Proven track record of designing responsive UIs, optimizing Single Page Applications (SPAs), and
+            implementing secure RESTful APIs using Spring Boot, Express.js and Postgres. Skilled in state
+            management (NgRx), lazy loading, and improving application performance. Strong leadership in
+            mentoring teams and driving best practices to deliver scalable, high-performance solutions.
             </p>
             <Link to="/contact">
                 <button className='btn'>Contact</button>
