@@ -25,7 +25,7 @@ export default function Navbar() {
       />
       <div className="header">
         <Link to="/">
-          <h1 onClick={handleProgress} >Portfolio</h1>
+          <h1 onClick={handleProgress} >Rahul Kumar Sharma</h1>
         </Link>
         <ul className={showHamburger ? "nav-menu active" : "nav-menu"}>
           <li>

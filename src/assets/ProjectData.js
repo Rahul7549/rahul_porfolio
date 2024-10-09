@@ -5,9 +5,18 @@ import covidTrakerImg from './covidTrakerApp.png'
 import netflixImg from './netflixClone.png'
 import weatherStatusImg from './weatherApplication.png'
 import RequestEase from './RequestEase.png'
+import adminPanelImg from './admin-panel.png'
 
 
 const projectCardData=[
+    {
+        imgsrc:adminPanelImg,
+        title:'Admin panel to track shipment:',
+        about:'This Admin Panel, built with Angular 16, allows seamless management of users, products, and shipments. It features an intuitive interface for editing product details, tracking shipments with imgUrl and updatedOn fields, and managing users with role-based access. The modular design, with admin and auth modules, ensures code efficiency, while popup dialogs maintain workflow visibility. Responsive and scalable, it provides a powerful backend management solution.',
+        view:'https://github.com/Rahul7549/shipment-admin-ui',
+        source:"https://github.com/Rahul7549/shipment-admin-ui"
+    },
+    
     {
         imgsrc:RequestEase,
         title:'RequestEase:',
